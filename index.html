@@ -12,7 +12,23 @@
         }
 
         header{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
             background-color: darksalmon;
+        }
+
+        nav{
+            background-color: gold;
+        }
+
+        a{
+            margin-left: 40px;
+        }
+
+        a:first-child{
+            margin: 0;
         }
         main{
             background-color: rgb(198, 218, 129); 
@@ -23,7 +39,15 @@
     </style>
 </head>
 <body>
-    <header>HEADER</header>
+    <header>
+        <img src="./logo.png" alt="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
     <main>MAIN</main>
     <footer>FOOTER</footer>
 </body>
