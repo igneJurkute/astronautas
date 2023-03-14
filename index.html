@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronautas</title>
     <style>
+        body{
+            margin: 0;
+        }
         header, main, footer{
             width: 800px; 
             margin-left: calc(50% - 400px);
@@ -16,22 +19,33 @@
             gap: 20px;
             align-items: center;
             justify-content: space-between;
-            background-color: darksalmon;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        img{
+            height: 50px;
+            width: 100px;
+            object-fit: contain;
+            object-position: left;
         }
 
         nav{
-            background-color: gold;
+            display: flex;
+            gap: 30px;
         }
-
         a{
-            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
         }
 
-        a:first-child{
-            margin: 0;
-        }
         main{
-            background-color: rgb(198, 218, 129); 
+            background-color: rgb(198, 218, 129);
+            margin-bottom: 40px; 
         }
         footer{
             background-color: rgb(181, 235, 235); 
@@ -42,10 +56,10 @@
     <header>
         <img src="./logo.png" alt="Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Job</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
     <main>MAIN</main>
