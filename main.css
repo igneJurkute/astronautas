@@ -59,6 +59,18 @@ body {
     font-weight: normal;
 }
 
+/* .title::before{
+    content:"" ;
+} */
+
+.title::after{
+    content: '' ;
+    display: block;
+    width: 100px;
+    background-color: #662b8c;
+    height: 5px;
+}
+
 .description{
     font-size: 14px;
     margin-bottom: 30px;
